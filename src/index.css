@@ -1,13 +1,70 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header{
+  background: linear-gradient(rgba(0,229,145,1) ,rgba(47,239,188,1));
+  padding: 15px 0;
+}
+.header h1{
+  /* margin: 0; */
+  color: #ffffff;
+  font-weight: 500;
+}
+.todo-form{
+}
+.todo-input{
+  outline: none;
+  border: none;
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  width: 100%;
+}
+.todo-button{
+  border: none;
+  outline: none;
+  background: linear-gradient(rgba(0,229,145,1) ,rgba(47,239,188,1));
+  padding: 7px 12px;
+  color: white;
+  font-weight: 500;
+  width: 100%;
+}
+.task-header{
+  background: linear-gradient(rgba(0,229,145,1) ,rgba(47,239,188,1));
+  padding: 5px 12px;
+}
+.task-header h5{
+ color: white;
+ font-weight: 400;
+ margin: 0;
+}
+.edit-icon{
+  width: 45px;
+}
+.todo-text{
+  color: #5d5d5d;
+  cursor: pointer;
+}
+.complete {
+  text-decoration: line-through black;
+  opacity: 0.4;
+}
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px auto;
+  color: black;
+  background: rgba(221, 221, 221, 0.39);
+  padding: 8px 0px;
+}
+.todo-text{
+  font-weight: bold;
+}
+.sub-todo-header{
+  background: linear-gradient(rgba(0,229,145,1) ,rgba(47,239,188,1));
+  padding: 5px 12px;
+  background: linear-gradient(rgba(0,229,145,1) ,rgba(47,239,188,1));
+  color: white;
+  width: 100%;
 }
